@@ -15,6 +15,8 @@ class PrimeNumberGeneratorTest {
 
         assertTrue(checkIsPrime(7));
 
+        assertTrue(checkIsPrime(1));
+
         assertTrue(checkIsPrime(17));
     }
 
