@@ -20,4 +20,16 @@ class PrimeNumberGeneratorTest {
         assertTrue(checkIsPrime(17));
     }
 
+    @Test
+    public  void testPrimeGeneratorSize() {
+
+        var primeArray = PrimeNumberGenerator.generatePrime(5).toArray();
+
+        int primeArrayExpected[] = new int[] {1, 2,3, 5, 7};
+
+        assertArrayEquals(primeArray, primeArrayExpected);
+    }
+
+
+
 }
